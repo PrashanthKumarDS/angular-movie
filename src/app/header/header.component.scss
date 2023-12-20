@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(223, 220, 220);
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 40px;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 40px;
+    font-weight:900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logout{
+    padding: 40px;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

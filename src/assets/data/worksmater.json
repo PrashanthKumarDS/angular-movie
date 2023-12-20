@@ -1,0 +1,1125 @@
+Book recommendation
+
+key:commanBookRec
+
+
+
+1. Screen for worksmater
+janCampCorpWorkSmarter
+
+{
+    "type": "list",
+    "body": "That's awesome! \n\nSmart work really boosts productivity and maximizes your time. How would you like to get started?",
+    "msgid": "janCampaign",
+    "globalButtons": [
+      {
+        "type": "text",
+        "title": "Options"
+      }
+    ],
+    "items": [
+      {
+        "options": [
+          {
+            "type": "text",
+            "title": "Book recommendation",
+            "postbackText": "wsBookRecommendation"
+          },
+          {
+            "type": "text",
+            "title": "Online course",
+            "postbackText": "wsOnlineCourse"
+          },
+          {
+            "type": "text",
+            "title": "Actionable tips",
+            "postbackText": "wsActionabletips"
+          },
+          {
+            "type": "text",
+            "title": "Connect me to an Exepert",
+            "postbackText": "commonConnectExpertScreent"
+          },
+          {
+            "type": "text",
+            "title": "Online tools to use",
+            "postbackText": "onlinetools"
+          }
+          
+        ]
+      }
+    ]
+  }
+
+2.Screen for Book recommendation
+key:wsBookRecommendation
+
+{
+    "type": "list",
+    "body": "Here are my top 5 recommendations. \nTake a look and pick the one that really catches your eye!",
+    "msgid": "janCampaign",
+    "globalButtons": [
+      {
+        "type": "text",
+        "title": "Options"
+      }
+    ],
+    "items": [
+      {
+        "options": [
+          {
+            "type": "text",
+            "title": "7Key Habits",
+            "postbackText":"7HighEffect"
+          },
+          {
+            "type": "text",
+            "title": "Atomic Habits",
+            "postbackText": "AtomicHabit"
+          },
+          {
+            "type": "text",
+            "title": "Thinking fast and slow",
+            "postbackText": "Thinkfastslow"
+          },
+          {
+            "type": "text",
+            "title": "Getting Things Done",
+            "postbackText": "GetThingsDone"
+          },
+          {
+            "type": "text",
+            "title": "How to Influence People",
+            "postbackText": "howtoinfluencepeople"
+          }
+          
+        ]
+      }
+    ]
+  }
+
+3.  7 Key Habits
+
+key :7HighEffect
+
+{
+    "type": "list",
+    "body": "Great pick! \n\nThis book is a classic in self-help.It talks about seven habits that can make you better at both personal and work stuff. Covey's ideas give you a good start to be successful and handle your work smartly",
+    "msgid": "janCampaign",
+    "globalButtons": [
+      {
+        "type": "text",
+        "title": "Options"
+      }
+    ],
+    "items": [
+      {
+        "options": [
+          {
+            "type": "text",
+            "title": "Sounds Interesting",
+            "postbackText":"janCampCorpFictionSoundsInteresting"
+          },
+          {
+            "type": "text",
+            "title": "More about the book",
+            "postbackText": "TellMoreAbtBook"
+          },
+          {
+            "type": "text",
+            "title": "Check Other Options",
+            "postbackText": "commanBookRec"
+          }
+
+     
+        ]
+      }
+    ]
+  }
+  
+4.Tell more about the
+book -press
+
+key:TellMoreAbtBook
+{
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Overview: This book is widely praised for its timeless principles. It has been well-received by individuals seeking personal and professional development.\n\nNumber of Pages: The book typically has around 380 pages\n\nTestimonial: Covey’s timeless principles have had a profound impact on my life. The book provides a roadmap for personal and professional effectiveness that is both insightful and practical - Bill Gates \n\nEffectiveness: The book is often regarded as highly helpful due to its actionable advice and principles.Readers appreciate Covey's holistic approach to success. It emphasizes the importance of character, integrity, and ethical decision-making."
+    },
+    "options": [
+        {
+            "type": "text",
+            "title": "Sounds Interesting",
+            "postbackText":"janCampCorpFictionSoundsInteresting"
+          },
+          {
+            "type": "text",
+            "title": "Check Other Options",
+            "postbackText": "commanBookRec"
+          }
+    ]
+  }
+
+5.Atomic Habits -press
+key:AtomicHabit
+{
+    "type": "list",
+    "body": "Your choice is spot on! In this book, James Clear explores the power of small habits and incremental improvements. Within the corporate context, developing positive habits can lead to long- term success. This book provides actionable insights on how to build and sustain habits that contribute to professional growth.",
+    "msgid": "janCampaign",
+    "globalButtons": [
+      {
+        "type": "text",
+        "title": "Options"
+      }
+    ],
+    "items": [
+      {
+        "options": [
+          {
+            "type": "text",
+            "title": "Sounds Interesting",
+            "postbackText":"janCampCorpFictionSoundsInteresting"
+          },
+          {
+            "type": "text",
+            "title": "More about the book",
+            "postbackText": "atomicTellMoreAbtBook"
+          },
+          {
+            "type": "text",
+            "title": "Check Other Options",
+            "postbackText": "commanBookRec"
+          }
+        ]
+      }
+    ]
+  }
+
+6.atomic Tell more about the
+book -press
+
+key:"atomicTellMoreAbtBook"
+{	
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+        "type": "text",
+        "text": "Overview: 'Atomic Habits' by James Clear has received widespread acclaim for its insights into habit formation. Readers praise its actionable advice and clear's engaging writing style. It is a go-to guide for personal development. \nNumber of Pages: The book comprises approximately 320 pages \nTestimonial: James Clear has written an illuminating guide on the power of small habits. Atomic Habits is a game-changer, offering practical strategies for lasting personal transformation' - Brené Brown, Author and Researcher \nEffectiveness: 'Atomic Habits' is incredibly helpful, offering clear strategies to build and break habits."
+    },
+    "options": [
+        {
+            "type": "text",
+            "title": "Sounds Interesting",
+            "postbackText": "janCampCorpFictionSoundsInteresting"
+        },
+
+        {
+            "type": "text",
+            "title": "Check Other Options",
+            "postbackText": "commanBookRec"
+        }
+    
+    ]
+}
+
+7.Thinking fast and slow press
+
+key:Thinkfastslow
+
+
+{
+    "type": "list",
+    "body": "Great pick! \n\nThis book by Daniel Kahneman, who won a Nobel Prize, talks about two ways we think when making decisions. Knowing how you make decisions can help you in tricky work situations and make wise choices.",
+    "msgid": "janCampaign",
+    "globalButtons": [
+      {
+        "type": "text",
+        "title": "Options"
+      }
+    ],
+    "items": [
+      {
+        "options": [
+          {
+            "type": "text",
+            "title": "Sounds Interesting",
+            "postbackText": "janCampCorpFictionSoundsInteresting"
+          },
+          {
+            "type": "text",
+            "title": "Tell more about the book",
+            "postbackText": "thinkTellMoreAbtBook"
+          },
+          {
+            "type": "text",
+            "title": "Check Other Options",
+            "postbackText": "commanBookRec"
+          }
+        ]
+      }
+    ]
+  }
+
+  8.Thinking- Tell more about the
+  book -press
+  key:thinkTellMoreAbtBook
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Overview: This book is hailed as a groundbreaking exploration of human decision-making. It has received widespread acclaim for its profound insights into cognitive processes. \n\nNumber of Pages: The book spans approximately 512 pages. \n\nTestimonial: Kahneman's work is a revelation, reshaping our understanding of the mind. \n\n“Thinking, Fast and Slow’ is a masterpiece that will forever change the way you think about thinking.” -Daniel Gilbert, Psychologist and Author \n\nEffectiveness: Thinking, Fast and Slow' is highly helpful.It provides invaluable insights into our innate biases and decision making process."
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Sounds Interesting",
+        "postbackText": "janCampCorpFictionSoundsInteresting"
+      },
+      {
+        "type": "text",
+        "title": "Check Other Options",
+        "postbackText": "commanBookRec"
+      }
+    ]
+  }
+
+  9.Getting Things Done
+  key:GetThingsDone
+
+  {
+    "type": "list",
+    "body": "That's an awesome choice! \n\nThis book by David Allen introduces a comprehensive system for organizing tasks, projects, and commitments. It's packed with practical techniques designed to manage workflow and boost efficiency in a corporate environment.",
+    "msgid": "janCampaign",
+    "globalButtons": [
+      {
+        "type": "text",
+        "title": "Options"
+      }
+    ],
+    "items": [
+      {
+        "options": [
+          {
+            "type": "text",
+            "title": "Sounds Interesting",
+            "postbackText": "janCampCorpFictionSoundsInteresting"
+          },
+          {
+            "type": "text",
+            "title": "Tell more about the book",
+            "postbackText": "getTellMoreAbtBook"
+          },
+          {
+            "type": "text",
+            "title": "Check Other Options",
+            "postbackText": "commanBookRec"
+          }
+        ]
+      }
+    ]
+  }
+ 
+
+  10.Getting- Tell more about the
+  book -press
+
+  key:getTellMoreAbtBook
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Overview: Getting Things Done by David Allen is widely praised for its practical approach to personal productivity. It has garnered positive feedback for its actionable strategies in managing tasks and reducing stress. \n Number of Pages: The book is approximately 352 pages long \n Testimonial: “David Allen's ‘Getting Things Done’ is the productivity bible. His methodology is transformative, providing a clear roadmap to organize, prioritize, and execute tasks efficiently.” ~Tony Robbins, Author and Life Coach \n Effectiveness: Getting Things Done’ is exceptionally helpful,offering a systematic and adaptable method for enhancing productivity."
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Sounds Interesting",
+        "postbackText": "janCampCorpFictionSoundsInteresting"
+      },
+      {
+        "type": "text",
+        "title": "Check Other Options",
+        "postbackText": "commanBookRec"
+      }
+    ]
+  }
+
+
+
+11.How to Influence People
+key:howtoinfluencepeople
+
+{
+    "type": "list",
+    "body": "Impressive! \n\nThis book dives into people skills and how to talk effectively. Carnegie's ideas can help you make good relationships, handle office situations, and create more impact at work.",
+    "msgid": "janCampaign",
+    "globalButtons": [
+      {
+        "type": "text",
+        "title": "Options"
+      }
+    ],
+    "items": [
+      {
+        "options": [
+          {
+            "type": "text",
+            "title": "Sounds Interesting",
+            "postbackText": "janCampCorpFictionSoundsInteresting"
+          },
+          {
+            "type": "text",
+            "title": "Tell more about the book",
+            "postbackText": "howTellMoreAbtBook"
+          },
+          {
+            "type": "text",
+            "title": "Check Other Options",
+            "postbackText": "commanBookRec"
+          }
+        ]
+      }
+    ]
+  }
+
+
+  12.How to Influence People- Tell more about the
+  book -press
+
+  key:howTellMoreAbtBook
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Overview: How to Win Friends and Influence People by Dale Carnegie is a timeless classic, praised for its enduring wisdom on interpersonal skills. it consistently receives positive feedback for its practical advice on building meaningful connections.  \n\nNumber of Pages: The book is approximately 288 pages long \n\nTestimonial: Dale Carnegie's principles are as relevant today as they were when he first wrote them. 'How to Win Friends and Influence People’ is a must-read for anyone seeking success in both personal and professional relationships. Warren Buffett \n\nEffectiveness: It is immensely helpful, providing actionable tips for improving communication, understanding others, and navigating social situations."
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Sounds Interesting",
+        "postbackText": "janCampCorpFictionSoundsInteresting"
+      },
+      {
+        "type": "text",
+        "title": "Check Other Options",
+        "postbackText": "commanBookRec"
+      }
+    ]
+  }
+  
+
+
+  Online course
+
+  // 1.Online course click
+
+  // key:wsOnlineCourse
+  
+
+  // insert into dost_v2.whatsapp_que_ans (question_id,question_option,response,is_active,created_on,screen_id) VALUES ('janCampaign','wsOnlineCourse','Ah, good choice! Our online course ‘Maximize efficiency: Work Smarter’ will help you make the most of your time at work. 
+  // It's loaded with strategies to kick start your journey towards efficiency.',1,now(),'iPhone14&15promax-4');
+
+
+  1. after this Online course click screen
+
+  key:"wsOnlineCourse"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Ah, good choice! Our online course ‘Maximize efficiency: Work Smarter’ will help you make the most of your time at work. \n\nIt's loaded with strategies to kick start your journey towards efficiency. \n\nDoes that sound good?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "soundsgoodyes"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "courseTellMore"
+      }
+    ]
+  }
+
+  2. yes
+key:soundsgoodyes
+
+  insert into dost_v2.whatsapp_que_ans (question_id,question_option,response,is_active,created_on,screen_id) VALUES ('janCampaign','soundsgoodyes','Awesome! This module won’t take long. You’ll be able to complete it in about 45 minutes. \n\nWhenever you’re ready, click on the link below to get started!',1,now(),'iPhone14&15promax-6');
+
+
+  3.iPhone 14 & 15 Pro Max - 7
+  
+4. selecting after the after yes 
+
+key:isCourseCompleted
+// 5.completed -click
+// {
+//     "type": "quick_reply",
+//     "msgid": "janCampaign",
+//     "content": {
+//       "type": "text",
+//       "text": "That's fantastic! I'm really proud of the progress you've made on your journey! Did you find the course helpful?"
+//     },
+//     "options": [
+//       {
+//         "type": "text",
+//         "title": "Yes",
+//         "postbackText": "fantasticYes"
+//       },
+//       {
+//         "type": "text",
+//         "title": "No",
+//         "postbackText": "fantasticNo"
+//       },
+//     ]
+//   }
+
+//   6.fantasticYes-click
+//   {
+//     "type": "quick_reply",
+//     "msgid": "janCampaign",
+//     "content": {
+//       "type": "text",
+//       "text": "Awesome! You're all set to go! \n Remember, this was just the beginning of your self improvement journey. \n By using these strategies, you'll become a pro in no time. \n Is there a new area you would like to work on next?"
+//     },
+//     "options": [
+//       {
+//         "type": "text",
+//         "title": "Work on New Area",
+//         "postbackText": "janCampCorpFictionSomElseMtp"
+//       },
+//       {
+//         "type": "text",
+//         "title": "I’m good for now!",
+//         "postbackText": "commonHi"
+//       }
+//     ]
+//   }
+
+
+//   7.fantasticNo-click
+
+//   {
+//     "type": "quick_reply",
+//     "msgid": "janCampaign",
+//     "content": {
+//       "type": "text",
+//       "text": "I’m sorry to hear that. What did you not like about the course?"
+//     },
+//     "options": [
+//       {
+//         "type": "text",
+//         "title": "It was not effective",
+//         "postbackText": "notEffective"
+//       },
+//       {
+//         "type": "text",
+//         "title": "It was too theoretical",
+//         "postbackText": "theoretical"
+//       },
+//        {
+//         "type": "text",
+//         "title": "It was too long",
+//         "postbackText": "tooLong"
+//       }
+      
+//     ]
+//   }
+
+{
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+        "type": "text",
+        "text": "Hey there! How's the online course going? Have you been liking it?"
+    },
+    "options": [
+        {
+            "type": "text",
+            "title": " I completed the course!",
+            "postbackText": "completed"
+          },
+          {
+            "type": "text",
+            "title": "I started the course",
+            "postbackText": "istrartcourse"
+          },
+        {
+            "type": "text",
+            "title": "Yet to Start",
+            "postbackText": "yettoStart"
+        }
+    ]
+}
+
+
+5.yet to start click
+
+key:yettoStart
+
+{
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "No problem at all! You can start now and explore numerous methods to enhance workplace efficiency. Ready to dive in and get started?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "istrartcourse"
+      },
+      {
+        "type": "text",
+        "title": "No",
+        "postbackText": "No"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "courseTellMore"
+      }
+    ]
+  }
+
+
+6.no
+
+key:No
+{
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "I’m sorry to hear that. Is there a particular reason you don’t want to try the course?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "This will not work for me",
+        "postbackText": "commonConnectExpertScreen"
+      },
+      {
+        "type": "text",
+        "title": "Doesn’t sound effective ",
+        "postbackText": "commonConnectExpertScreen"
+      }
+    ]
+  }
+
+
+7.tellmemore-click
+key:courseTellMore
+{
+  "type": "quick_reply",
+  "msgid": "janCampaign",
+  "content": {
+    "type": "text",
+    "text": "In this course you will learn how to manage time better, organize tasks, and make your work easier. You will also understand how to minimize distractions, allowing you to focus better on your work. You will uncover ways to optimize your processes, and find a rhythm that works best for you.\n\nDoes that sound good?"
+  },
+  "options": [
+    {
+      "type": "text",
+      "title": "Yes",
+      "postbackText": "soundsgoodyes"
+    },
+    {
+      "type": "text",
+      "title": "Expert Connect: Help!",
+      "postbackText": "commonConnectExpertScreen"
+    }
+    
+  ]
+}
+
+
+  8. yes
+
+  repeat
+   step 3,4,5,6;
+
+//   insert into dost_v2.whatsapp_que_ans (question_id,question_option,response,is_active,created_on,screen_id) VALUES ('janCampaign','OnlinecourseYes','Awesome! This module won’t take long. You’ll be able to complete it in about 45 minutes. \n
+
+//   Whenever you’re ready, click on the link below to get started!',1,now(),'iPhone 14 & 15 Pro Max - 6');
+
+
+//   11.iPhone 14 & 15 Pro Max - 7
+
+
+
+Actionable tips (The Great Pulkit)
+
+
+Connect me to an Expert(THe Great Pulkit)
+
+
+Online tools to use
+
+key:onlinetools
+
+
+1.first click
+{
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! I’ve chosen a few tools to help you make the most of your self-improvement journey. How about this: I'll share a few helpful tools. You can test it out and see if it works for you. \n\nDoes that sound good?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "jumpToQuestion1"
+      },
+      {
+        "type": "text",
+        "title": "No",
+        "postbackText": "onlineNo"
+      }
+    ]
+  }
+
+
+  2.  after clickling yes
+
+  key for this screen "jumpToQuestion1"
+
+
+  question1 -
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Great! \n Here’s the first tool you can get started with!\n Merlin AI: It helps you summarize videos, scrape websites, respond to emails, grow your social media, etc."
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting1"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "onlineTellmore1"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestion2"
+      }
+    ]
+  }
+
+
+
+
+  3.question1- after intresting click
+
+  key for this screen "onlineInteresting1"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "jumpToQuestion2"
+      }
+    ]
+  }
+
+  4. question1-after next tool click -
+  key:jumpToQuestion2
+
+  5.question1- after tell me more click
+  key:onlineTellmore1
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Alright! \n\nCheck out this video—it will help you better understand how the tool works."
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting1"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestion2"
+      }
+    ]
+  }
+
+
+
+  6.question2 
+  key for this screen "jumpToQuestion2"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Hey buddy! Here’s your tool for Day 2. \n\nFireflies AI is an interesting ChatGPT chrome extension that acts as your AI meeting assistant. On Google Meet video calls, it can automatically record and transcribe the meeting using AI and summarize it for you immediately. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting2"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "onlineTellmore2"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestion3"
+      }
+    ]
+  }
+
+  7.
+  question2- after intresting click
+
+  key for this screen "onlineInteresting2"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "jumpToQuestion3"
+      }
+    ]
+  }
+
+  8. question2-after next tool click -
+  key:jumpToQuestion3
+
+
+  9.question2- after tell me more click
+  key:onlineTellmore2
+
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Alright! \n\nCheck out this video—it will help you better understand how the tool works. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting2"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestion3"
+      }
+    ]
+  }
+
+
+  10.question3
+  key for this screen "jumpToQuestion3"
+
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Hey friend! I hope you’ve been having a productive week! \n\nHere’s your tool for day 3: \n\nZoom Scheduler: An extension that integrates with your Google Calendar and allows you to schedule Zoom meetings directly from your calendar. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting3"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "onlineTellmore3"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestion4"
+      }
+    ]
+  }
+
+  11.
+  question3- after intresting click
+
+  key for this screen "onlineInteresting3"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "jumpToQuestion4"
+      }
+    ]
+  }
+
+  12. question3-after next tool click -
+  key:jumpToQuestion4
+
+  13.question3- after tell me more click
+  key:onlineTellmore3
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Alright! \n\nCheck out this video—it will help you better understand how the tool works. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting3"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestion4"
+      }
+    ]
+  }
+
+  14.
+  question4
+  key for this screen "jumpToQuestion4"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Hey buddy! I’m so proud of how far you’ve come! \n\nHere’s your tool for day 4: \n\nGoogle Keep: A simple note-taking app that allows you to capture and organize your thoughts, ideas, and to-do lists. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting4"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "onlineTellmore4"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestionLast"
+      }
+    ]
+  }
+
+  15.
+  question4- after intresting click
+
+  key for this screen "onlineInteresting4"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "jumpToQuestionLast"
+      }
+    ]
+  }
+
+  16. question4-after next tool click -
+  key:jumpToQuestionLast
+
+
+  17.question4- after tell me more click
+  key:onlineTellmore4
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Alright! \n Check out this video—it will help you better understand how the tool works. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "onlineInteresting4"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "jumpToQuestionLast"
+      }
+    ]
+  }
+
+
+  18.
+  key for this screen "jumpToQuestionLast"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Well, that’s a wrap for now! I hope you found the tools helpful! \n\nWould you like to work on another area of self improvement?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "janCampCorpFictionSomElseMtp"
+      },
+      {
+        "type": "text",
+        "title": "No",
+        "postbackText": "commonHi"
+      }
+    ]
+  }
+
+
+
+  19. in first  page if user clicks no
+
+  key:onlineNo
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "I'm sorry to hear that! Is there any particular reason you're hesitant to give the tools a try? \n\nIf something's on your mind, I'm here to help!"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "The tools might not help me",
+        "postbackText": "notHelp"
+      },
+      {
+        "type": "text",
+        "title": "Not interested to do this",
+        "postbackText": "notIntrested"
+      }
+    ]
+  }
+
+  20. this tool not help - click
+key:notHelp
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "I totally get it! Feeling a bit hesitant when starting a new habit is pretty normal. Would you like to try one tool and see how it goes?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Sure",
+        "postbackText": "jumpToQuestion1"
+      },
+      {
+        "type": "text",
+        "title": "Not interested to do this",
+        "postbackText": "notIntrested"
+      }
+    ]
+  }
+
+
+
+  21. not intrested click
+
+  key for this screen = "notIntrested"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "No problem at all! Maybe personalized support from an expert could be helpful. Would you like me to connect you with someone who can give you more tailored assistance?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "commonConnectExpertScreen"
+      },
+      {
+        "type": "text",
+        "title": "Later",
+        "postbackText": "commonHi"
+      }
+    ]
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+ 

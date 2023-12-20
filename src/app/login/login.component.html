@@ -1,0 +1,45 @@
+<div class="login-main-container">
+  <div>
+    <img class="image"
+      src="https://i1.wp.com/bestcasereviews.com/wp-content/uploads/2020/01/rsz_2019_collage_poster.jpg?fit=1200%2C1200&ssl=1"
+      alt="moives" height="700px" width="700px">
+  </div>
+  <h1 class="title">BeforeWatch</h1>
+  <h3 class="description">
+    Welcome to BeforeWatch, your gateway to a world of captivating entertainment. Immerse yourself in a diverse
+    collection of movies and TV shows curated to suit every taste. Explore the latest releases, read insightful reviews,
+    and discover the perfect content for your next viewing experience.
+
+    At BeforeWatch, we believe in making your entertainment choices easier. Our platform offers a comprehensive overview
+    of each title, including reviews and ratings from our community of viewers. Find out what's trending, explore hidden
+    gems, and make informed decisions on what to watch next
+    Movies4U!</h3>
+  <div class="login-box">
+    <p class="login-text">Login</p>
+    <p [ngClass]="{credential: isCorrectCredential , redCredential:!isCorrectCredential}">*Credential: IronMan | 123456
+    </p>
+
+
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Username*</mat-label>
+        <input matInput placeholder="abcd@gmail.com" value="" [(ngModel)]="email">
+        <!-- <mat-hint>abcd@gmail.com</mat-hint> -->
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>Password*</mat-label>
+        <input matInput placeholder="A1b2@4$" value="" [(ngModel)]="password">
+        <!-- <mat-hint>A1b2@4$</mat-hint> -->
+      </mat-form-field>
+    </p>
+
+    <div class="column">
+      <button (click)="login()" mat-raised-button color="primary">Login</button>
+
+    </div>
+
+  </div>
+
+</div>

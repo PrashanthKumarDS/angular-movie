@@ -1,0 +1,458 @@
+Online tools to use
+
+key:mtpOnlinetools
+
+
+1.first click
+{
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! I’ve chosen a few tools to help you make the most of your self-improvement journey. How about this: I'll share a few helpful tools. You can test it out and see if it works for you. \n\nDoes that sound good?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "mtpJumpToQuestion1"
+      },
+      {
+        "type": "text",
+        "title": "No",
+        "postbackText": "mtpOnlineNo"
+      }
+    ]
+  }
+
+
+  2.  after clickling yes
+
+  key for this screen "mtpJumpToQuestion1"
+
+
+  question1 -
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Great!\n\nHere’s the first tool you can get started with!\n\n8AM Affirmations: Receive Affirmations every morning on whatsapp at 8AM. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Subscribe",
+        "postbackText": "mtpOnlineInteresting1"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "mtpOnlineTellmore1"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestion2"
+      }
+    ]
+  }
+
+
+
+
+  3.question1- after intresting click
+
+  key for this screen "mtpOnlineInteresting1"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "mtpJumpToQuestion2"
+      }
+    ]
+  }
+
+  4. question1-after next tool click -
+  key:mtpJumpToQuestion2
+
+  5.question1- after tell me more click
+  key:mtpOnlineTellmore1
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Reading affirmations regularly can help create a pattern of optimistic thinking. This in turn paves the way for purposeful action! Happy affirming! 🎉\n\n8AM affirmations is  a cmmunity of 2000+ people who get daily affirmations on whatsapp, would you like to join?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Subscribe",
+        "postbackText": "mtpOnlineInteresting1"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestion2"
+      }
+    ]
+  }
+
+
+
+  6.question2 
+  key for this screen "mtpJumpToQuestion2"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Hey buddy! Here’s your tool for Day 2.\n\nMindful Mondays: Practice Mindfulness every Monday at your convenient time. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Subscribe",
+        "postbackText": "mtpOnlineInteresting2"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "mtpOnlineTellmore2"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestion3"
+      }
+    ]
+  }
+
+  7.
+  question2- after intresting click
+
+  key for this screen "mtpOnlineInteresting2"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "mtpJumpToQuestion3"
+      }
+    ]
+  }
+
+  8. question2-after next tool click -
+  key:mtpJumpToQuestion3
+
+
+  9.question2- after tell me more click
+  key:mtpOnlineTellmore2
+
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Practicing Mindfulness regularly can help create a pattern of optimistic thinking. This in turn paves the way for purposeful action! Happy affirming! 🎉\n\nA community of 1500+ people who get weekly mindfulness practices  on whatsapp, would you like to join? "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Subscribe",
+        "postbackText": "mtpOnlineInteresting2"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestion3"
+      }
+    ]
+  }
+
+
+  10.question3
+  key for this screen "mtpJumpToQuestion3"
+
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Hey friend! I hope you’ve been having a positive week!\n\nHere’s your tool for day 3:\n\nMindful Browsing: This Chrome extension helps you stay mindful of your internet usage by displaying mindfulness messages and encouraging you to take breaks."
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "mtpOnlineInteresting3"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "mtpOnlineTellmore3"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestion4"
+      }
+    ]
+  }
+
+  11.
+  question3- after intresting click
+
+  key for this screen "mtpOnlineInteresting3"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "mtpJumpToQuestion4"
+      }
+    ]
+  }
+
+  12. question3-after next tool click -
+  key:mtpJumpToQuestion4
+
+  13.question3- after tell me more click
+  key:mtpOnlineTellmore3
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Alright! \n\nCheck out this video—it will help you better understand how the tool works. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "mtpOnlineInteresting3"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestion4"
+      }
+    ]
+  }
+
+  14.
+  question4
+  key for this screen "mtpJumpToQuestion4"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Hey buddy! I’m so proud of how far you’ve come! \n\nHere’s your tool for day 4: \n\nGoogle Keep: A simple note-taking app that allows you to capture and organize your thoughts, ideas, and to-do lists. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "mtpOnlineInteresting4"
+      },
+      {
+        "type": "text",
+        "title": "Tell me more",
+        "postbackText": "mtpOnlineTellmore4"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestionLast"
+      }
+    ]
+  }
+
+  15.
+  question4- after intresting click
+
+  key for this screen "mtpOnlineInteresting4"
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Awesome! Go ahead, and test it our for yourself. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Next Tool",
+        "postbackText": "mtpJumpToQuestionLast"
+      }
+    ]
+  }
+
+  16. question4-after next tool click -
+  key:mtpJumpToQuestionLast
+
+
+  17.question4- after tell me more click
+  key:mtpOnlineTellmore4
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Alright! \n Check out this video—it will help you better understand how the tool works. "
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Interesting",
+        "postbackText": "mtpOnlineInteresting4"
+      },
+      {
+        "type": "text",
+        "title": "Skip to another tool",
+        "postbackText": "mtpJumpToQuestionLast"
+      }
+    ]
+  }
+
+
+  18.
+  key for this screen "mtpJumpToQuestionLast"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "Well, that’s a wrap for now! I hope you found the tools helpful! \n\nWould you like to work on another area of self improvement?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "janCampCorpFictionSomElseMtp"
+      },
+      {
+        "type": "text",
+        "title": "No",
+        "postbackText": "commonHi"
+      }
+    ]
+  }
+
+
+
+  19. in first  page if user clicks no
+
+  key:mtpOnlineNo
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "I'm sorry to hear that! Is there any particular reason you're hesitant to give the tools a try? \n\nIf something's on your mind, I'm here to help!"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "The tools might not help me",
+        "postbackText": "mtpNotHelp"
+      },
+      {
+        "type": "text",
+        "title": "Not interested to do this",
+        "postbackText": "mtpNotIntrested"
+      }
+    ]
+  }
+
+  20. this tool not help - click
+key:mtpNotHelp
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "I totally get it! Feeling a bit hesitant when starting a new habit is pretty normal. Would you like to try one tool and see how it goes?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Sure",
+        "postbackText": "mtpJumpToQuestion1"
+      },
+      {
+        "type": "text",
+        "title": "Not interested to do this",
+        "postbackText": "mtpNotIntrested"
+      }
+    ]
+  }
+
+
+
+  21. not intrested click
+
+  key for this screen = "mtpNotIntrested"
+
+  {
+    "type": "quick_reply",
+    "msgid": "janCampaign",
+    "content": {
+      "type": "text",
+      "text": "No problem at all! Maybe personalized support from an expert could be helpful. Would you like me to connect you with someone who can give you more tailored assistance?"
+    },
+    "options": [
+      {
+        "type": "text",
+        "title": "Yes",
+        "postbackText": "commonConnectExpertScreen"
+      },
+      {
+        "type": "text",
+        "title": "Later",
+        "postbackText": "commonHi"
+      }
+    ]
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+ 

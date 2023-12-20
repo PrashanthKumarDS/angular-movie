@@ -1,0 +1,68 @@
+<app-header></app-header>
+<div class="movies">
+    <div *ngIf="isLoading; else content" class="loader">Loading...</div>
+    <ng-template #content>
+        <div  class="section">
+            <div class="trending-movies">
+                <p class="heading">
+                    <span class="line">|</span>
+                    TRENDING MOVIES
+                </p>
+                <div class="all-movies hidden-scrollbar">
+                    <div *ngFor="let movies of trendingMovies" (click)="naviagteToDetails('trending',movies.id)"class="movie-card">
+                        <div style="border-radius: 10px;overflow: hidden;" class="movies-image">
+                            <img [src]="movies.cover" height="270px" width="180px">
+                          </div>
+                          
+                        <div class="movie-name">{{movies.name}}</div>
+                        <div class="movie-name"> <span>Rating : </span>{{movies.rating}}</div>
+                    </div>
+                </div>
+            </div>
+        <div class="trending-movies">
+            <p class="heading">
+                <span class="line">|</span>
+                NEW MOVIES
+            </p>
+            <div class="all-movies hidden-scrollbar">
+                <div *ngFor="let movies of newMovies" (click)="naviagteToDetails('new',movies.id)" class="movie-card">
+                    <div style="border-radius: 10px;overflow: hidden;" class="movies-image">
+                        <img [src]="movies.cover" height="270px" width="180px">
+                      </div>
+                      
+                    <div class="movie-name">{{movies.name}}</div>
+                    <div class="movie-name"> <span>Rating : </span>{{movies.rating}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="popular-movies">
+            <p class="heading">
+                <span class="line">|</span>
+                POPULAR MOVIES
+            </p>
+            <div *ngFor="let movies of popularMovies" (click)="naviagteToDetails('popular',movies.id)" class="popular-section">
+                <div class="popular-movieCard">
+                    <div style="border-radius: 10px;overflow: hidden;" class="popular-movies-image">
+                        <img [src]="movies.cover" height="270px" width="200px">
+                      </div>
+                      <div class="popular-movieDetails movie-name" >
+                        <p >{{movies.name}}</p>
+                        <p><span>Author : </span>{{movies.reviews[0]?.["author"] || "N/A"}}</p>
+                        <p><span>Released On : </span>{{movies.reviews[0]?.["published_on"] ||"N/A"}}</p>
+                        <p>
+                            <span>Rating: </span>
+                            {{ movies.rating || "N/A" }}
+                        </p>
+                        <p><span>Review : </span>{{movies.reviews[0]?.["review"] || "N/A"}}</p>
+                      </div>
+                   
+                </div>
+            </div>
+          
+        </div>
+    </ng-template>
+   
+</div>
+

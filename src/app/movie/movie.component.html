@@ -1,0 +1,18 @@
+<app-header></app-header>
+<div class="main-container">
+    <div class="image">
+        <img [src]="movieDetail.cover" height="470px" width="380px">
+    </div>
+
+    <div class="movie-name">
+        <p><span>Movie Name : </span>{{movieDetail.name}}</p>
+        <p><span>Author : </span>{{movieDetail.reviews[0]?.["author"] || "N/A"}}</p>
+        <p><span>Released On : </span>{{movieDetail.reviews[0]?.["published_on"] ||"N/A"}}</p>
+        <p>
+            <span>Rating: </span>
+            {{ movieDetail.rating || "N/A" }}
+        </p>
+        <p><span>Review : </span>{{movieDetail.reviews[0]?.["review"] || "N/A"}}</p>
+    </div>
+
+</div>
